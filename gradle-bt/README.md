@@ -2,9 +2,25 @@
 
 | File | What it is | PNG size |
 |---|---|---|
-| `gradle_bt_icon_primary.*` | The elephant alone | 605×445 |
-| `gradle_bt_lockup_dark.*` | Full lockup, **dark** wordmark — for light mail | 640×167 |
-| `gradle_bt_lockup_light.*` | Full lockup, **light** wordmark — for dark mail | 640×167 |
+|  | The elephant alone | 605×445 |
+| **** | **Lockup on a white rounded panel — what the generator uses** | **676×203** |
+|  | Lockup, dark wordmark, no panel | 640×167 |
+|  | Lockup, light wordmark, no panel | 640×167 |
+
+## Why the lockup is panelled
+
+The wordmark is near-black, so unlike the teal-only mark it cannot sit on both
+grounds. **No email client inverts images**, so a PNG's polarity is fixed the
+moment it is pasted — and the recipient's colour scheme is unknowable then.
+
+So the signature lockup carries its own white ground: a rounded panel with the
+corners left transparent. On a white background it is invisible and the logo
+reads exactly as drawn; on a dark one it shows as a white card. One file,
+correct either way.
+
+The unpanelled  /  pair is kept for other uses but is **not**
+referenced by the generator. The mark is deliberately unpanelled — teal on
+transparent already reads on both.
 
 **The PNGs are what the generator uses** — mail clients strip SVG, so a
 signature cannot reference the vector. The SVGs are the source of truth for
