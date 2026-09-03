@@ -47,8 +47,9 @@ The elephant is a gradient, **`#209BC4` → `#4DC9C0`** (midpoint `#36B2C2`).
 The swoosh in "develocity" is `#2CA7BE`, Develocity's own teal — correct in a
 co-brand lockup.
 
-The generator does **not** use any of these directly: its accent is `#29828C`,
-that hue darkened to clear WCAG AA as body text on a white mail background.
+The generator's accent is `#2CA7BE` — the swoosh colour above, which is also
+the teal the Develocity signature uses, so the two signatures match and the
+accent matches artwork already inside the lockup.
 
 ## Two rules
 
